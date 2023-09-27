@@ -12,12 +12,13 @@ import img6 from '../assests/remove bg logo - Copy.png';
 
 const headingopt={
 pos:"absolute",
-left:"50vw",
-top :"50vh",
+left:"40vw",
+top :"70vh",
 trasform:"translate(-50%, -50%)",
 texttransform:"uppercase",
+borderRadius:"full",
 p:"4",
-size:'4xl'
+
 };
   
 const imageStyles = {
