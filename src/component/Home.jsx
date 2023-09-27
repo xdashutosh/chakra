@@ -74,13 +74,13 @@ const Home = () => {
 
     </Carousel>
 
-<VStack w={'100vw'} minH={'100vh'} p={'16'} border={'2px solid'}>
+<VStack w={'100vw'} minH={'100vh'} p={['8','16']}>
   <VStack>
   <Heading texttransform={'uppercase'} py={'2'} w={'fit-content'} borderBottom={'2px solid '} m={'auto'}>Services</Heading>
 <Stack
 direction={['column','row']}
 alignItems={'center'}
-p={'4'}
+p={['0','4']}
 h={'full'}
 >
 
