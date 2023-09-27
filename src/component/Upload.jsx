@@ -32,8 +32,8 @@ const Upload = () => {
       }
 
   return (
-<Stack direction={['column','row']} h={'100vh'} mt={'20'} overflowX={'hidden'}>
-<VStack w={'full'} h={'100vh'} justifyContent={'center'}>
+<Stack direction={['column','row']} h={'100vh'} mt={'20'} overflowX={'hidden'} overflowY={'hidden'}>
+<VStack w={'full'} h={'100vh'} justifyContent={'center'} >
 <Box p={4} borderBottom={['2px solid','0px solid']} borderRight={['0px solid','2px solid']} ml={['0','auto']} pr={['0','20']} w={['80%','60%']}>
       <Heading as="h2" size="lg" mb={4}>
         Course Information
