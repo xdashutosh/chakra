@@ -43,7 +43,7 @@ const Header = () => {
 
    pos={'fixed'} 
    top={'2'} 
-   left={['10','40']} 
+   left={['20','40']} 
 
    zIndex={2}
    h={'14'}
@@ -51,6 +51,7 @@ const Header = () => {
    fontSize={['xl','4xl']}
    bg={'transparent'}
    _hover={buttonStyles}
+   
    >    
 🅴🅳🆄🅾🆁🅰🅶🅴
     </Button>
