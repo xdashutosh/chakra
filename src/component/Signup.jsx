@@ -10,7 +10,7 @@ const Signup = () => {
 
     
   return (
-   <Stack w={'full'} h={'100vh'} p={'16'}  alignItems={'center'} justifyContent={'center'} >
+   <Stack w={'full'} h={'100vh'} p={'16'}  alignItems={'center'} justifyContent={'center'} mt={['64','0']}  >
 <Heading borderBottom={'2px solid'}>Sign Up</Heading>
     <VStack w={['full','40%']}  p={['2','16']} spacing={['0','8']}>
     <Avatar name= {`${firstName } ${lastName}`} fontSize={'30'} boxSize={'32'} / >
